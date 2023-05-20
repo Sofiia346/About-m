@@ -41,6 +41,7 @@ margin-right: 40px;
     padding: 10px;
     margin: 10px auto;
     border-radius: 10px;
+    transition: transform 0.5s;
     }
 .sub-title{
         background-color: #000000;
@@ -89,4 +90,18 @@ footer{
 .lin:hover{
     background-color: rgb(87, 87, 87);
     color: white;
+}
+.photo:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.photo{
+    transition: transform 0.5s;
+}
+.tag:hover{
+-webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
 }
